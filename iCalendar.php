@@ -66,7 +66,7 @@ class iCalendar {
 	 */
 	public function __construct() {
 		$this->events = array();
-		$this->prodId = "-//Cory Borrow//iCalendar Library//EN";
+		$this->prodId = "-//cborrow//iCalendar Library//EN";
 		$this->calScale = "GREGORIAN";
 		$this->method = "REQUEST";
 		$this->version = "2.0";
