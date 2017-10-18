@@ -9,7 +9,7 @@ require_once "iCalendarEvent.php";
  * @package iCalendar
  * @author Cory Borrow
  * @copyright 2015 Cory Borrow
- * @version 1.0
+ * @version 1.5
  */
 class iCalendar {
 	/**
