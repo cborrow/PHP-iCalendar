@@ -7,7 +7,7 @@
  * @package iCalendar
  * @author Cory Borrow
  * @copyright 2015 Cory Borrow
- * @version 1.0
+ * @version 1.3
  */
 class iCalendarEvent {
 	/**
@@ -246,7 +246,7 @@ class iCalendarEvent {
 	 * Returns a formatted trigger time for iCalendar VALARM:TRIGGER.
 	 *
 	 * @access private
-	 * @param  int $time The time to trigger before event in seconds (e.g. 3600 = 1 Hour)
+	 * @param  int $time The time to trigger before event in seconds (i.e. 3600 = 1 Hour)
 	 * @return string The formatted time
 	 */
 	private function toTriggerTime($time) {
